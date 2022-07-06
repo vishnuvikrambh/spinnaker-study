@@ -20,7 +20,7 @@ public class FruitResource {
     private Set<Fruit> fruits = Collections.newSetFromMap(Collections.synchronizedMap(new LinkedHashMap<>()));
 
     public FruitResource() {
-        fruits.add(new Fruit("Apple", "Winter  fruit"));
+        fruits.add(new Fruit("Apple", "Winter fruit"));
         fruits.add(new Fruit("Pineapple", "Tropical fruit"));
     }
 
